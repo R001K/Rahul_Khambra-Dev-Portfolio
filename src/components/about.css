@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap");
+.abtcontainer {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.507);
+  background-color: rgba(201, 201, 201, 0.164);
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  border-radius: 8px;
+}
+@media only screen and (max-width: 600px) {
+  .abtcontainer {
+    padding: 10px;
+    margin-left: 20px;
+
+    margin-right: 20px;
+  }
+}
+button {
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: 200;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.226);
+  background-color: rgba(201, 201, 201, 0.164);
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+transition: transform 0.3s ease-in-out;
+}
+
+.heading {
+  margin-top: -1px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.matter{
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}
+.email{
+    margin-top: -10px;
+    font-weight: 200;
+    font-size: 15px;
+}
+.contactheading{
+    font-size: 19px;
+}
+.copy{
+    margin-left: 10px;
+}
+.github-logo {
+    width: 40px;
+    /* Adjust the width to your preference */
+    height: 40px;
+    /* Adjust the height to your preference */
+    cursor: pointer;
+    filter: brightness(0) invert(1);
+    /* Set color to white */
+    transition: transform 0.3s ease-in-out;
+    /* Add smooth transition */
+}
+
+.github-logo:hover {
+    transform: scale(1.1);
+    /* Adjust the scale factor for zooming in */
+}
+button:hover{
+    transform: scale(1.1);
+}
+.back{
+  margin-bottom: 30px;
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .abtcontainer {
+    padding: 15px;
+    margin-left: 40px;
+    /* Add left margin for tablets */
+    margin-right: 40px;
+    /* Add right margin for tablets */
+  }
+}

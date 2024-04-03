@@ -1,0 +1,58 @@
+body {
+  background-image: url('../public/bg1.jpg');
+  background-size: cover;
+  background-color: #00013E;
+  background-attachment: fixed;
+  margin: 0;
+  /* Remove default body margin */
+}
+.home-container {
+  margin-top: 200px;
+}
+html,
+body {
+  height: 100%;
+  /* Set html and body height to 100% */
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    /* Adjust background for mobile devices */
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+.abt {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: -20px;
+      border: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+        color: white;
+        font-weight: 200;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.226);
+        background-color: rgba(201, 201, 201, 0.164);
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 8px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff00;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.212);
+
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}

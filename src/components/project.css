@@ -1,0 +1,28 @@
+.title {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    font-size: 19px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+li a:hover {
+    transform: scale(1.1);
+}
+
+.more{
+    font-size: 15px;
+    
+    font-weight: 100;
+}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.Topbar {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.212);
+    padding: 10px;
+    font-size: 25px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+@media only screen and (max-width: 600px) {
+    .Topbar {
+        font-size: 20px;
+        /* Adjust the font size for mobile devices */
+    }
+}

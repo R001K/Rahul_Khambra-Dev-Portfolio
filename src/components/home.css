@@ -1,0 +1,80 @@
+/* home.css */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.container {
+    
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.507);
+    background-color: rgba(201, 201, 201, 0.164);
+    padding: 20px;
+    max-width: 1000px;
+    /* Set a maximum width for better readability */
+    margin: auto;
+    border-radius: 8px;
+    
+    /* Center the container */
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: 600;
+    /* Use font-weight instead of font-family for boldness */
+}
+.sub-heading{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(218, 218, 218);
+}
+hr{
+    border-radius: 8px;
+    height: 2px;
+    background-color: rgb(218, 218, 218);
+    border: none;
+    margin-bottom: 30px;
+}
+.para{
+    font-size: 15px;
+        font-weight: 300;
+        color: rgb(218, 218, 218);
+}
+/* Media query for responsiveness in mobile devices */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+        margin-left: 20px;
+        /* Add left margin for mobile devices */
+        margin-right: 20px;
+        /* Add right margin for mobile devices */
+    }
+        
+}
+.projhr{
+    margin-top: 20px;
+}
+.browse-projects{
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.226);
+    background-color: rgba(201, 201, 201, 0.164);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .container {
+        padding: 15px;
+        margin-left: 40px;
+        /* Add left margin for tablets */
+        margin-right: 40px;
+        /* Add right margin for tablets */
+    }
+}

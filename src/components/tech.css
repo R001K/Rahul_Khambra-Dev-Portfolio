@@ -1,0 +1,31 @@
+.title {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.add{
+    font-size: 15px;
+    
+        font-weight: 100;
+}
+.logos-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Three columns in each row */
+    gap: 20px;
+    /* Adjust the gap between logos */
+    margin-top: 20px;
+    /* Adjust the top margin */
+}
+
+.logo {
+    width: 60px;
+    /* Decrease the width of each logo */
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    /* Maintain aspect ratio */
+}
+.logo:hover {
+    transform: scale(1.2);
+    /* Adjust the scale factor for zooming in */
+}
